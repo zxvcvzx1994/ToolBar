@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+</style>
+
+    <style name="MyActionBar" parent="@style/ThemeOverlay.AppCompat.Light">
+
+    </style>
+    <style name="MyMenu" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:itemTextAppearance">@style/MyMenu.Text</item>
+        <item name="android:itemBackground">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="MyMenu.Text" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/bonmuoi</item>
+
+    </style>
+
+</resources>
